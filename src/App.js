@@ -1,19 +1,11 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { addToCard } from "./Redux/action";
-import { useDispatch } from "react-redux";
+import Header from "./components/Header";
+import Main from "./components/Main";
 
 function App() {
-  const dispatch = useDispatch();
-  const product = {
-    name: "Shoe",
-    category: "Sport",
-    price: 100,
-    available: true,
-  };
   return (
     <div className="App">
-      <button onClick={() => dispatch(addToCard(product))}>Add to card</button>
+      <Header />
+      <Main />
     </div>
   );
 }
