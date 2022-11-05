@@ -1,7 +1,7 @@
 import "../App.css";
 import { addToCard, emptyCard, removeFromCard } from "../Redux/action";
 import { useDispatch } from "react-redux";
-import { callListProduct } from "../Redux/productAction";
+import { productData } from "../Redux/productAction";
 import { useSelector } from "react-redux";
 
 function Main() {
@@ -27,7 +27,7 @@ function Main() {
         <button onClick={() => dispatch(emptyCard())}>Empty card</button>
       </div>
       <div>
-        <button onClick={() => dispatch(callListProduct())}>
+        <button onClick={() => dispatch(productData())}>
           Call product list
         </button>
       </div>
