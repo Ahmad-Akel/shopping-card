@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Shoe Nicke",
+      "color": "White",
+      "category": "Shoes",
+      "brand": "Nike",
+      "photo": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Shirt Adidas",
+      "color": "Red",
+      "category": "Shirts",
+      "brand": "Adidas",
+      "photo": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Bag Diadora",
+      "color": "Blue",
+      "category": "Bags",
+      "brand": "Diadora",
+      "photo": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg"
+    }
+  ]
+}
